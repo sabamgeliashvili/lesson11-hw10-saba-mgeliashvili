@@ -339,3 +339,105 @@ align-items: center;
     width: 82px;
     margin-top: 11px;
 }
+.pg2-buttondiv{
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 83px;
+}
+.pg2-button{
+    width: 383px;
+    height: 92px;
+    background-color: #5EB6E1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.pg3-header{
+ max-width: 1518px;
+ width: 100%;
+ height: 836px;
+ background-color: #181A1F;
+ margin-top: 209px;
+}
+.image16{
+    margin-top: 28px;
+}
+.image16-t1{
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+}
+.image16-t2{
+    font-size: 20px;
+    color: white;
+}
+.page3-textdiv{
+    display: flex;
+ justify-content: center;
+   align-items: center;
+  flex-wrap: wrap;
+}
+.pg3-bottom-wholebox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 62px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.pg3-bottom-box{
+    height: 522px;
+max-width: 461px;
+width: 100%;
+background-color: #13191A;
+}
+.pg3box-content{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 24px;
+}
+.pg3-content-p1{
+    font-size: 20px;
+    color: #5EB6E1;
+    width: 310px;
+    margin-top: 45px;
+}
+.pg3-content-p2{
+    color: white;
+    width: 310px;
+    margin-top: 15px;
+}
+.pg3-span{
+    color: white;
+    width: 130px;
+}
+.icons2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 33px;
+    
+}
+.earth{
+    color:  #5EB6E1;
+    margin-right: 10px;
+}
+.clock{
+   color:  #5EB6E1;
+   margin-right: 10px;
+}
+.pg3-buttondiv{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 83px;
+}
+.pg3-button{
+    width: 301px;
+    height: 92px;
+    background-color: #5EB6E1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
