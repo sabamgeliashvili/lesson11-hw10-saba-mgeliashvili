@@ -1,0 +1,151 @@
+.body{
+    height: 10000px;
+    padding-top: 120px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1920px;
+    width: 100%;
+    height: 120px;
+    background-color: wheat;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.ul-tag{
+    display: flex;
+    justify-content: space-between;
+    max-width: 660px;
+    width: 100%;
+}
+.nav{
+    justify-content: space-between;
+    max-width: 660px;
+    width: 100%;
+}
+.bg-image{
+    background-image: url(../images/background.jpg);
+    height: 916px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1920px;
+    width: 100%;
+}
+.bg-title{
+    font-size: 75px;
+    color: white;
+}
+.bg-p{
+    font-size: 30px;
+    color: white;
+}
+.button-div{
+    max-width: 301px;
+    width: 100%;
+    height: 90px;
+    background-color:wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
+.bg-text{
+max-width: 858px;
+width: 100%;
+height: 390px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* margin-left: 242px; */
+}
+
+
+/* page1 section1 */
+
+
+.top-wholebox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 109px;
+    max-width: 1569px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.box-button{
+    width: 137px;
+    height:39px ;
+    background-color: orange;
+}
+.top-box1{
+}
+.top-box-text{
+}
+.title2{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 5px;
+}
+.title3{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 26px;
+}
+
+
+
+/* page1 section 2 */
+.bottom-wholebox{
+    display: flex;
+ justify-content: center;
+   align-items: center;
+  flex-wrap: wrap;
+}
+.bottom-box-t{
+    color: orange;
+    font-size: 15px;
+}
+.bottom-box-t2{
+    font-size: 60px;
+    
+}
+.bottom-p1{
+    max-width: 370px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.bottom-p2{
+    max-width: 370px;
+    width: 100%;
+}
+.button3{
+    max-width: 243px;
+    width: 100%;
+    height: 74px;
+    background-color: blueviolet;
+    border-radius: 10%;
+}
+
+.right-div1{
+    display: flex;
+    max-width: 820px;
+    width: 100%;
+    height: 930px;
+    align-items: center;
+    margin-top: 252px;
+}
+.left-div1{
+    max-width: 673px;
+    width: 100%;
+    height: 270px;
+    margin-top: 380px;
+}
+.image4{
+    margin-right: 51px;
+}
+.image5{
+    margin-bottom: 54px;
+}
