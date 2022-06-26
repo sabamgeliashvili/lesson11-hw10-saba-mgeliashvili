@@ -323,3 +323,19 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
+
+.fa-facebook-f{
+    color: #0739FF;
+}
+.fa-twitter{
+    color: #00A2FF;
+}
+.fa-instagram{
+    color: #F933DF;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 82px;
+    margin-top: 11px;
+}
