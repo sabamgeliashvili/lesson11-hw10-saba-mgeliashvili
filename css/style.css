@@ -39,7 +39,7 @@ transition-duration: 1s;
         width: 100%;
         }
         .list:hover{
-           color: red;
+           color:white;
         }
 .nav{
     justify-content: space-between;
