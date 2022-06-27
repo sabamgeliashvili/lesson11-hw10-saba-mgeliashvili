@@ -447,7 +447,7 @@ margin-top: 24px;
 
 .last-wholebox{
     height: 1798px;
-    width: 1500px;
+    width: 1550px;
    background-color:#181A1F;
    margin-top: 259px;
 }
@@ -466,6 +466,10 @@ margin-top: 24px;
     width: 100%;
     height: 1090px;
     background-color:;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 176px;
 }
 .lastboxes-div{
     display: flex;
@@ -622,4 +626,32 @@ color:gray;
 align-items: center;
 justify-content: center;
 color:gray;
+}
+.pg4-leftb-t{
+    font-size: 60px;
+    color: white;
+}
+.select{
+    max-width: 560px;
+    width: 100%;
+    margin-top: 31px;
+}
+.email{
+    max-width: 560px;
+    width: 100%;
+    margin-top: 31px;
+}
+.textarea{
+    resize: none;
+    max-width: 565px;
+    width: 100%;
+    height: 186px;
+    margin-top: 32px;
+}
+.submit{
+    max-width: 566px;
+    width: 100%;
+    height: 63px;
+    background-color: #5EB6E1;
+    margin-top: 38px;
 }
