@@ -1,5 +1,4 @@
 .body{
-    height: 10000px;
     padding-top: 120px;
 }
 .header{
@@ -440,4 +439,187 @@ margin-top: 24px;
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+
+
+/* page4 */
+
+.last-wholebox{
+    height: 1798px;
+    width: 1500px;
+   background-color:#181A1F;
+   margin-top: 259px;
+}
+.image20-div{
+    max-width: 899px;
+    width: 100%;
+    height: 1090px;
+}
+.image20{
+  max-width: 899px;
+  width: 100%;
+  height: 1090px;
+}
+.last-left-b{
+    max-width: 899px;
+    width: 100%;
+    height: 1090px;
+    background-color:;
+}
+.lastboxes-div{
+    display: flex;
+}
+.long-block{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    flex-wrap: wrap;
+}
+.long-block-box1{
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    width: 100%;
+    height: 284px;
+}
+.fa-phone{
+    font-size: 18px;
+    color: #00A2FF;
+}
+.fa-envelope{
+    font-size: 18px;
+    color: #00A2FF;
+    margin-top: 14px;
+}
+.pg4-boxtitle{
+    font-size: 30px;
+    color: white;
+}
+.pg4-boxp{
+    width: 200px;
+    margin-top: 35px;
+    margin-bottom: 12px;
+}
+.icons3{
+    margin-top: 30px;
+}
+.fb{
+   font-size: 32px;
+   color: #00A2FF;
+}
+.insta{
+    font-size: 32px;
+    color: #00A2FF;
+}
+.twt{
+    font-size: 32px;
+    color: #00A2FF;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+.pg4span{
+    color:gray;
+}
+.pg4-box-p{
+    color: gray;
+    margin-bottom: 16px;
+    margin-top: 35px;
+}
+.popular-tags{
+    max-width: 350px;
+    width: 100%;
+    height: 223px;
+  
+}
+.buttons{
+width: 350px;
+height: 146px;
+display: flex;
+flex-wrap: wrap;
+margin-top: 37px;
+justify-content: space-between;
+align-items: center;
+color: gray;
+}
+.tag1{
+width: 115px;
+height: 43px;
+border: 1px solid gray;
+display: flex;
+align-items: center;
+justify-content: center;
+color:gray;
+}
+.tag2{
+    width: 115px;
+    height: 43px;
+    border: 1px solid gray;
+    display: flex;
+align-items: center;
+justify-content: center;
+color:gray;
+}
+.tag3{
+    width: 115px;
+    height: 43px;
+    border: 1px solid gray;
+    display: flex;
+align-items: center;
+justify-content: center;
+color:gray;
+}
+.tag4{
+    width: 115px;
+    height: 43px;
+    border: 1px solid gray;
+    display: flex;
+align-items: center;
+justify-content: center;
+color:gray;
+}
+.tag5{
+    width: 96px;
+    height: 43px;
+    border: 1px solid gray;
+    display: flex;
+align-items: center;
+justify-content: center;
+color:gray;
+}
+.tag6{
+    width: 115px;
+    height: 43px;
+    border: 1px solid gray;
+    display: flex;
+align-items: center;
+justify-content: center;
+color:gray;
+}
+.tag7{
+    width: 120px;
+    height: 43px;
+    border: 1px solid gray;
+    display: flex;
+align-items: center;
+justify-content: center;
+color:gray;
+}
+.tag8{
+    width: 74px;
+    height: 43px;
+    border: 1px solid gray;
+    display: flex;
+align-items: center;
+justify-content: center;
+color:gray;
+}
+.tag9{
+    width: 89px;
+    height: 43px;
+    border: 1px solid gray;
+    display: flex;
+align-items: center;
+justify-content: center;
+color:gray;
 }
