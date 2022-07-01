@@ -20,6 +20,12 @@
     max-width: 660px;
     width: 100%;
 }
+.fa-bars{
+    display: none;
+    font-size: 30px;
+    color: gray;
+    width: 100%;
+}
 .list{
 position: relative;
 color:black;
@@ -72,6 +78,7 @@ transition-duration: 1s;
     align-items: center;
     justify-content: center;
     border-radius: 10%;
+  margin-top: 40px;
 }
 .bg-text{
 max-width: 858px;
@@ -80,7 +87,14 @@ height: 390px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-/* margin-left: 242px; */
+margin-left: 242px;
+padding-top: 300px;
+}
+.phone{
+    color: black;
+}
+.fa-phone{
+    margin-right: 10px;
 }
 
 
@@ -103,6 +117,8 @@ justify-content: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-size: 15px;
 }
 .box-button2{
     max-width: 137px;
@@ -112,6 +128,8 @@ justify-content: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-size: 15px;
 }
 .box-button3{
     max-width: 137px;
@@ -121,37 +139,10 @@ justify-content: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-size: 15px;
 }
-.box-content{
-    max-width: 373px;
-    width: 100%;
-    position: absolute;
-    bottom: 47px;
-    left: 83px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.box-content2{
-    max-width: 373px;
-    width: 100%;
-    position: absolute;
-    bottom: 47px;
-    left: 83px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.box-content3{
-    max-width: 373px;
-    width: 100%;
-    position: absolute;
-    bottom: 47px;
-    left: 83px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 .box-p1{
     color: white;
 font-size: 30px;
@@ -167,10 +158,37 @@ width: 100%;
     width: 100%;
 }
 .top-box1{
-    position: relative;
+   background-image: url(../images/image1.jpg);
+   background-repeat: no-repeat;
+   max-width: 400px;
+    width: 100%;
+    height: 283px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .top-box2{
-    position: relative;
+   background-image:url(../images/image2.jpg) ;
+   background-repeat: no-repeat;
+   max-width: 400px;
+    width: 100%;
+    height: 283px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top-box3{
+    background-image: url(../images/image3.jpg);
+    background-repeat: no-repeat;
+    max-width: 400px;
+    width: 100%;
+    height: 283px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .box1-p{
     position: absolute;
@@ -198,6 +216,8 @@ width: 100%;
  justify-content: center;
    align-items: center;
   flex-wrap: wrap;
+  max-width: 1550px;
+  width: 100%;
 }
 .bottom-box-t{
     color: orange;
@@ -211,10 +231,12 @@ width: 100%;
     max-width: 370px;
     width: 100%;
     margin-bottom: 20px;
+    margin-top: 49px;
 }
 .bottom-p2{
     max-width: 370px;
     width: 100%;
+    line-height: 20px;
 }
 .button3{
     max-width: 243px;
@@ -222,6 +244,11 @@ width: 100%;
     height: 74px;
     background-color: blueviolet;
     border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 49px;
+    
 }
 
 .right-div1{
@@ -231,6 +258,7 @@ width: 100%;
     height: 930px;
     align-items: center;
     margin-top: 252px;
+    flex-wrap: wrap;
 }
 .left-div1{
     max-width: 673px;
@@ -243,6 +271,19 @@ width: 100%;
 }
 .image5{
     margin-bottom: 54px;
+}
+.blueline{
+    max-width: 168px;
+    width: 100%;
+    height: 2px;
+    background-color: #5EB6E1;
+}
+.right-img{
+    display: flex;
+    flex-direction: column;
+}
+.left-img{
+    display: flex;
 }
 
 
@@ -294,38 +335,182 @@ margin-top: 187px;
 .image7{
     max-width: 506px;
     width: 100%;
+    height: 397px;
 }
+.image7-div{
+    position: relative;
+    max-width: 506px;
+    width: 100%;
+    height: 397px;
+}
+.image7-txt{
+    position: absolute;
+   left: 50%;
+   transform: translate(-50%,-50%);
+  bottom: 0;
+    color:white;
+    font-size: 45px;
+    max-width: 275px;
+    width: 100%;
+}
+.image7-div::before{
+    content: ' ';
+    max-width: 506px;
+    width: 100%;
+    height: 75px;
+    background-color:black;
+    display: block;
+    position: absolute;
+    opacity: 80%;
+    bottom: 0;
+    }
 .image8{
     max-width: 506px;
     width: 100%;
+    height: 397px;
 }
 .image9{
     max-width: 506px;
     width: 100%;
+    height: 397px;
 }
+.image9-div{
+    position: relative;
+    max-width: 506px;
+    width: 100%;
+    height: 397px;
+}
+.image9-txt{
+    position: absolute;
+   left: 50%;
+   transform: translate(-50%,-50%);
+  bottom: 0;
+    color:white;
+    font-size: 45px;
+    max-width: 275px;
+    width: 100%;
+}
+.image9-div::before{
+    content: ' ';
+    max-width: 506px;
+    width: 100%;
+    height: 75px;
+    background-color:black;
+    display: block;
+    position: absolute;
+    opacity: 80%;
+    bottom: 0;
+    }
 .image10{
     max-width: 506px;
     width: 100%;
+    height: 397px;
 }
+.image10-div{
+    position: relative;
+    max-width: 506px;
+    width: 100%;
+    height: 397px;
+}
+.image10-txt{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   bottom: 0;
+     color:white;
+     font-size: 45px;
+     max-width: 275px;
+     width: 100%;
+}
+.image10-div::before{
+    content: ' ';
+    max-width: 506px;
+    width: 100%;
+    height: 75px;
+    background-color:black;
+    display: block;
+    position: absolute;
+    opacity: 80%;
+    bottom: 0;
+    }
 .image11{
    max-width: 506px;
    width: 100%;
+   height: 397px;
+}
+.image11-div{
+    position: relative;
+    max-width: 506px;
+    width: 100%;
+    height: 397px;
+}
+.image11-txt{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   bottom: 0;
+     color:white;
+     font-size: 45px;
+     max-width: 275px;
+     width: 100%;
+}
+.image11-div::before{
+content: ' ';
+max-width: 506px;
+width: 100%;
+height: 75px;
+background-color:black;
+display: block;
+position: absolute;
+opacity: 80%;
+bottom: 0;
 }
 .image12{
     max-width: 506px;
     width: 100%;
+    height: 397px;
 }
+.image12-div{
+    position: relative;
+    max-width: 506px;
+    width: 100%;
+    height: 397px;
+}
+.image12-txt{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   bottom: 0;
+     color:white;
+     font-size: 45px;
+     max-width: 275px;
+     width: 100%;
+}
+.image12-div::before{
+    content: ' ';
+    max-width: 506px;
+    width: 100%;
+    height: 75px;
+    background-color:black;
+    display: block;
+    position: absolute;
+    opacity: 80%;
+    bottom: 0;
+    }
 .image13{
     height: 458px;
     width: 100%;
+    object-fit: cover;
 }
 .image14{
     height: 458px;
     width: 100%;
+    object-fit: cover;
 }
 .image15{
     height: 458px;
     width: 100%;
+    object-fit: cover;
 }
 .pg2-bottom-wholebox{
     display: flex;
@@ -333,6 +518,8 @@ margin-top: 187px;
     margin-top: 62px;
     flex-wrap: wrap;
     align-items: center;
+    max-width: 1550px;
+    width: 100%;
 }
 .pg2-bottom-box{
 height: 649px;
@@ -381,6 +568,8 @@ align-items: center;
     align-items: center;
     display: flex;
     justify-content: center;
+    font-size: 25px;
+    border-radius: 10px;
 }
 .pg3-header{
  max-width: 1518px;
@@ -413,6 +602,8 @@ align-items: center;
     margin-top: 62px;
     flex-wrap: wrap;
     align-items: center;
+    max-width: 1550px;
+    width: 100%;
 }
 .pg3-bottom-box{
     height: 522px;
@@ -469,6 +660,8 @@ margin-top: 24px;
     align-items: center;
     display: flex;
     justify-content: center;
+    font-size: 25px;
+    border-radius: 10px;
 }
 
 
@@ -477,9 +670,11 @@ margin-top: 24px;
 
 .last-wholebox{
     height: 1798px;
-    width: 1550px;
+    max-width: 1550px;
+    width: 100%;
    background-color:#181A1F;
    margin-top: 259px;
+   height: auto;
 }
 .image20-div{
     max-width: 620px;
@@ -490,6 +685,7 @@ margin-top: 24px;
   max-width: 620px;
   width: 100%;
   height: 1090px;
+  object-fit: cover;
 }
 .last-left-b{
     max-width: 899px;
@@ -722,4 +918,27 @@ transition-duration:2s;
     height: 63px;
     background-color: #5EB6E1;
     margin-top: 38px;
+}
+.bottom-line{
+    max-width: 1550px;
+    width: 100%;
+    background-color: #00A2FF;
+    height: 30px;
+    display: flex;
+justify-content: center;
+
+}
+
+.bottom-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    align-items: center;
+}
+.bottom-p{
+    display: flex;
+    justify-content: center;
+    color: #707070;
+    margin-top: 21px;
+    height: 50px;
 }
