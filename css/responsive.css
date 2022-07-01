@@ -36,6 +36,9 @@ margin-bottom: 40px;
    .left-div1{
     margin-left: 100px;
    }
+   .left-div1{
+    margin-bottom: 100px;
+   }
 }
 @media(max-width:938px){
    .pg3-bottom-box{
@@ -48,4 +51,14 @@ margin-bottom: 40px;
         margin-left: 0;
 
     }
+}
+@media(max-width:850px){
+    .long-block{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:497px){
+    .header{}
 }

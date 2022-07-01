@@ -63,11 +63,21 @@ transition-duration: 1s;
 }
 .bg-title{
     font-size: 75px;
+    max-width:580px ;
+    width: 100%;
     color: white;
+    font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 .bg-p{
     font-size: 30px;
     color: white;
+    font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 .button-div{
     max-width: 301px;
@@ -79,6 +89,10 @@ transition-duration: 1s;
     justify-content: center;
     border-radius: 10%;
   margin-top: 40px;
+}
+.button-div-a{
+    max-width: 301px;
+    width: 100%;
 }
 .bg-text{
 max-width: 858px;
@@ -149,6 +163,11 @@ font-size: 30px;
 margin-bottom: 5px;
 max-width: 373px;
 width: 100%;
+font-family: 'Futura PT Cond medium';
+font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    width: 250px;
 }
 .box-p2{
     color: white;
@@ -156,6 +175,10 @@ width: 100%;
     margin-bottom: 26px;
     max-width: 246px;
     width: 100%;
+    font-family: 'Futura PT Book';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 .top-box1{
    background-image: url(../images/image1.jpg);
@@ -222,21 +245,36 @@ width: 100%;
 .bottom-box-t{
     color: orange;
     font-size: 15px;
+    font-family: 'Futura PT bold';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 .bottom-box-t2{
     font-size: 60px;
-    
+    font-family: 'Futura PT Cond medium';
+font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 .bottom-p1{
     max-width: 370px;
     width: 100%;
     margin-bottom: 20px;
     margin-top: 49px;
+    font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 .bottom-p2{
     max-width: 370px;
     width: 100%;
     line-height: 20px;
+    font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 .button3{
     max-width: 243px;
@@ -248,6 +286,10 @@ width: 100%;
     justify-content: center;
     align-items: center;
     margin-top: 49px;
+    font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
     
 }
 
@@ -301,24 +343,40 @@ width: 100%;
     color: white;
     margin-top:112px;
     margin-bottom: 67px;
+    font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 .page2-p{
-    max-width: 1107px;
+    max-width: 900px;
     width: 100%;
     text-align: center;
     color: white;
     font-size: 30px;
+    font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 .page2-t2{
 font-size: 60px;
 margin-bottom: 67px;
 margin-top: 187px;
+font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 .page2-p2{
-    max-width: 1107px;
+    max-width: 900px;
     width: 100%;
     text-align: center;
     font-size: 30px;
+    font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 .page2-textdiv{
     display: flex;
@@ -529,9 +587,17 @@ box-shadow: 5px 2px 10px #888888;
 }
 .title4{
 font-size: 45px;
+font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 .title5{
 font-size: 30px;
+font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 .pg2box-content{
 display: flex;
@@ -553,16 +619,19 @@ align-items: center;
     display: flex;
     justify-content: space-between;
     width: 82px;
+   
     margin-top: 11px;
 }
 .pg2-buttondiv{
-    width: 1500px;
+    max-width: 1500px;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 83px;
 }
 .pg2-button{
-    width: 383px;
+    max-width: 383px;
+    width: 100%;
     height: 92px;
     background-color: #5EB6E1;
     align-items: center;
@@ -570,6 +639,10 @@ align-items: center;
     justify-content: center;
     font-size: 25px;
     border-radius: 10px;
+    font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 .pg3-header{
  max-width: 1518px;
@@ -621,12 +694,14 @@ margin-top: 24px;
 .pg3-content-p1{
     font-size: 20px;
     color: #5EB6E1;
-    width: 310px;
+    max-width: 310px;
+    width: 100%;
     margin-top: 45px;
 }
 .pg3-content-p2{
     color: white;
-    width: 310px;
+    max-width: 310px;
+    width: 100%;
     margin-top: 15px;
 }
 .pg3-span{
@@ -648,13 +723,15 @@ margin-top: 24px;
    margin-right: 10px;
 }
 .pg3-buttondiv{
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 83px;
 }
 .pg3-button{
-    width: 301px;
+    max-width: 301px;
+    width: 100%;
     height: 92px;
     background-color: #5EB6E1;
     align-items: center;
@@ -728,7 +805,8 @@ margin-top: 24px;
     color: white;
 }
 .pg4-boxp{
-    width: 200px;
+    max-width: 200px;
+    width: 100%;
     margin-top: 35px;
     margin-bottom: 12px;
 }
@@ -764,7 +842,8 @@ margin-top: 24px;
   
 }
 .buttons{
-width: 350px;
+max-width: 350px;
+width: 100%;
 height: 146px;
 display: flex;
 flex-wrap: wrap;
@@ -775,6 +854,7 @@ color: gray;
 }
 .tag1{
 width: 115px;
+
 height: 43px;
 border: 1px solid gray;
 display: flex;
@@ -788,6 +868,7 @@ transition-duration: 2s;
 }
 .tag2{
     width: 115px;
+    
     height: 43px;
     border: 1px solid gray;
     display: flex;
@@ -893,6 +974,10 @@ transition-duration:2s;
 .pg4-leftb-t{
     font-size: 60px;
     color: white;
+    font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
 .select{
@@ -918,6 +1003,11 @@ transition-duration:2s;
     height: 63px;
     background-color: #5EB6E1;
     margin-top: 38px;
+    font-size: 20px;
+    font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 .bottom-line{
     max-width: 1550px;
@@ -932,7 +1022,8 @@ justify-content: center;
 .bottom-nav{
     display: flex;
     justify-content: space-around;
-    width: 500px;
+   max-width: 500px;
+   width: 100%;
     align-items: center;
 }
 .bottom-p{
@@ -941,4 +1032,8 @@ justify-content: center;
     color: #707070;
     margin-top: 21px;
     height: 50px;
+}
+.logo2{
+    margin-left: -80px;
+    margin-bottom: 20px;
 }
