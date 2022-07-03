@@ -887,6 +887,8 @@ display: flex;
  margin-top: 209px;
 }
 .image16{
+    max-width: 110px;
+    width: 100%;
     margin-top: 28px;
 }
 .image16-t1{
@@ -905,6 +907,18 @@ display: flex;
     font-weight: 500;
     font-style: normal;
     font-display: swap;
+}
+.image17{
+    max-width: 330px;
+    width: 100%;
+}
+.image18{
+    max-width: 330px;
+    width: 100%;
+}
+.image19{
+    max-width: 330px;
+    width: 100%;
 }
 .page3-textdiv{
     display: -webkit-box;
