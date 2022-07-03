@@ -1,24 +1,44 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .body{
     padding-top: 120px;
 }
 .header{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     max-width: 1920px;
     width: 100%;
     height: 120px;
-    background-color: wheat;
-    align-items: center;
+    background-color:white;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 10;
 }
 .ul-tag{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     max-width: 660px;
     width: 100%;
+    font-family: 'Futura PT Demi';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
 }
 .fa-bars{
     display: none;
@@ -29,7 +49,9 @@
 .list{
 position: relative;
 color:black;
-transition-duration: 1s;
+-webkit-transition-duration: 1s;
+     -o-transition-duration: 1s;
+        transition-duration: 1s;
 }
 .list::after{
     content: '';
@@ -39,16 +61,20 @@ transition-duration: 1s;
     left: 0;
     bottom:0;
     background-color:black;
-    transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+         -o-transition-duration: 2s;
+            transition-duration: 2s;
     }
     .list:hover::after{
         width: 100%;
         }
         .list:hover{
-           color:white;
+           color:wheat;
         }
 .nav{
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     max-width: 660px;
     width: 100%;
 }
@@ -83,10 +109,16 @@ transition-duration: 1s;
     max-width: 301px;
     width: 100%;
     height: 90px;
-    background-color:wheat;
+    background-color:#00A2FF;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     border-radius: 10%;
   margin-top: 40px;
 }
@@ -98,9 +130,16 @@ transition-duration: 1s;
 max-width: 858px;
 width: 100%;
 height: 390px;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-flex-direction: column;
-justify-content: center;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
 margin-left: 242px;
 padding-top: 300px;
 }
@@ -116,45 +155,79 @@ padding-top: 300px;
 
 
 .top-wholebox{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-top: 109px;
     max-width: 1569px;
     width: 100%;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .box-button{
     max-width: 137px;
     width: 100%;
     height:39px ;
     background-color: orange;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: white;
     font-size: 15px;
+    font-family: 'Futura PT bold';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 .box-button2{
     max-width: 137px;
     width: 100%;
     height:39px ;
     background-color: #945B9F;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: white;
     font-size: 15px;
+    font-family: 'Futura PT bold';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 .box-button3{
     max-width: 137px;
     width: 100%;
     height:39px ;
     background-color: #5EB6E1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: white;
     font-size: 15px;
+    font-family: 'Futura PT bold';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 .box-p1{
@@ -186,10 +259,19 @@ font-weight: 500;
    max-width: 400px;
     width: 100%;
     height: 283px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .top-box2{
    background-image:url(../images/image2.jpg) ;
@@ -197,10 +279,19 @@ font-weight: 500;
    max-width: 400px;
     width: 100%;
     height: 283px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .top-box3{
     background-image: url(../images/image3.jpg);
@@ -208,10 +299,19 @@ font-weight: 500;
     max-width: 400px;
     width: 100%;
     height: 283px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .box1-p{
     position: absolute;
@@ -235,10 +335,17 @@ font-weight: 500;
 
 /* page1 section 2 */
 .bottom-wholebox{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
- justify-content: center;
-   align-items: center;
-  flex-wrap: wrap;
+ -webkit-box-pack: center;
+     -ms-flex-pack: center;
+         justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   max-width: 1550px;
   width: 100%;
 }
@@ -282,9 +389,15 @@ font-weight: 500;
     height: 74px;
     background-color: blueviolet;
     border-radius: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 49px;
     font-family: 'Futura PT Cond medium';
     font-weight: 500;
@@ -294,13 +407,18 @@ font-weight: 500;
 }
 
 .right-div1{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     max-width: 820px;
     width: 100%;
     height: 930px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 252px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .left-div1{
     max-width: 673px;
@@ -321,10 +439,17 @@ font-weight: 500;
     background-color: #5EB6E1;
 }
 .right-img{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .left-img{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -342,7 +467,6 @@ font-weight: 500;
    font-size: 60px;
     color: white;
     margin-top:112px;
-    margin-bottom: 67px;
     font-family: 'Futura PT Cond medium';
     font-weight: 500;
     font-style: normal;
@@ -361,12 +485,42 @@ font-weight: 500;
 }
 .page2-t2{
 font-size: 60px;
-margin-bottom: 67px;
+
 margin-top: 187px;
 font-family: 'Futura PT Cond medium';
     font-weight: 500;
     font-style: normal;
     font-display: swap;
+}
+.blueline3{
+    background-color: #00A2FF;
+    max-width: 130px;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 60px;
+    margin-top: 15px;
+}
+.blueline2{
+    background-color: #00A2FF;
+    max-width: 100px;
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 43px;
+}
+.blueline4{
+    background-color: #00A2FF;
+    max-width: 100px;
+    width: 100%;
+    height: 2px;
+    margin-top: 15px;
+    margin-bottom: 90px;
+}
+.blueline5{
+    background-color: #00A2FF;
+    max-width: 150px;
+    width: 100%;
+    height: 2px;
 }
 .page2-p2{
     max-width: 900px;
@@ -379,16 +533,28 @@ font-family: 'Futura PT Cond medium';
     font-display: swap;
 }
 .page2-textdiv{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
    
 }
 .page2-boxes{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     vertical-align: top;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .image7{
     max-width: 506px;
@@ -404,12 +570,18 @@ font-family: 'Futura PT Cond medium';
 .image7-txt{
     position: absolute;
    left: 50%;
-   transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%);
+       -ms-transform: translate(-50%,-50%);
+           transform: translate(-50%,-50%);
   bottom: 0;
     color:white;
     font-size: 45px;
     max-width: 275px;
     width: 100%;
+    font-family: 'Futura PT Book';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 .image7-div::before{
     content: ' ';
@@ -441,12 +613,18 @@ font-family: 'Futura PT Cond medium';
 .image9-txt{
     position: absolute;
    left: 50%;
-   transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%);
+       -ms-transform: translate(-50%,-50%);
+           transform: translate(-50%,-50%);
   bottom: 0;
     color:white;
     font-size: 45px;
     max-width: 275px;
     width: 100%;
+    font-family: 'Futura PT Book';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 .image9-div::before{
     content: ' ';
@@ -473,12 +651,18 @@ font-family: 'Futura PT Cond medium';
 .image10-txt{
     position: absolute;
     left: 50%;
-    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
    bottom: 0;
      color:white;
      font-size: 45px;
      max-width: 275px;
      width: 100%;
+     font-family: 'Futura PT Book';
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
 }
 .image10-div::before{
     content: ' ';
@@ -505,12 +689,18 @@ font-family: 'Futura PT Cond medium';
 .image11-txt{
     position: absolute;
     left: 50%;
-    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
    bottom: 0;
      color:white;
      font-size: 45px;
      max-width: 275px;
      width: 100%;
+     font-family: 'Futura PT Book';
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
 }
 .image11-div::before{
 content: ' ';
@@ -537,12 +727,18 @@ bottom: 0;
 .image12-txt{
     position: absolute;
     left: 50%;
-    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
    bottom: 0;
      color:white;
      font-size: 45px;
      max-width: 275px;
      width: 100%;
+     font-family: 'Futura PT Book';
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
 }
 .image12-div::before{
     content: ' ';
@@ -558,24 +754,33 @@ bottom: 0;
 .image13{
     height: 458px;
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 .image14{
     height: 458px;
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 .image15{
     height: 458px;
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 .pg2-bottom-wholebox{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-top: 62px;
-    flex-wrap: wrap;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     max-width: 1550px;
     width: 100%;
 }
@@ -583,7 +788,8 @@ bottom: 0;
 height: 649px;
 max-width: 461px;
 width: 100%;
-box-shadow: 5px 2px 10px #888888;
+-webkit-box-shadow: 5px 2px 10px #888888;
+        box-shadow: 5px 2px 10px #888888;
 }
 .title4{
 font-size: 45px;
@@ -600,10 +806,19 @@ font-family: 'Futura PT Cond medium';
     font-display: swap;
 }
 .pg2box-content{
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 }
 
 .fa-facebook-f{
@@ -616,8 +831,12 @@ align-items: center;
     color: #F933DF;
 }
 .icons{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 82px;
    
     margin-top: 11px;
@@ -625,8 +844,12 @@ align-items: center;
 .pg2-buttondiv{
     max-width: 1500px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 83px;
 }
 .pg2-button{
@@ -634,9 +857,15 @@ align-items: center;
     width: 100%;
     height: 92px;
     background-color: #5EB6E1;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-size: 25px;
     border-radius: 10px;
     font-family: 'Futura PT Cond medium';
@@ -658,23 +887,44 @@ align-items: center;
     font-size: 30px;
     color: white;
     margin-top: 20px;
+    font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 .image16-t2{
     font-size: 20px;
     color: white;
+    font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 .page3-textdiv{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
- justify-content: center;
-   align-items: center;
-  flex-wrap: wrap;
+ -webkit-box-pack: center;
+     -ms-flex-pack: center;
+         justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .pg3-bottom-wholebox{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-top: 62px;
-    flex-wrap: wrap;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     max-width: 1550px;
     width: 100%;
 }
@@ -685,10 +935,19 @@ width: 100%;
 background-color: #13191A;
 }
 .pg3box-content{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 margin-top: 24px;
 }
 .pg3-content-p1{
@@ -697,20 +956,31 @@ margin-top: 24px;
     max-width: 310px;
     width: 100%;
     margin-top: 45px;
+    font-family: 'Raleway semibold';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
 }
 .pg3-content-p2{
     color: white;
     max-width: 310px;
     width: 100%;
     margin-top: 15px;
+    font-family: 'Raleway semibold';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
 }
 .pg3-span{
     color: white;
     width: 130px;
 }
 .icons2{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-top: 33px;
     
 }
@@ -725,8 +995,12 @@ margin-top: 24px;
 .pg3-buttondiv{
     max-width: 1000px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 83px;
 }
 .pg3-button{
@@ -734,9 +1008,15 @@ margin-top: 24px;
     width: 100%;
     height: 92px;
     background-color: #5EB6E1;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-size: 25px;
     border-radius: 10px;
 }
@@ -762,31 +1042,51 @@ margin-top: 24px;
   max-width: 620px;
   width: 100%;
   height: 1090px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .last-left-b{
     max-width: 899px;
     width: 100%;
     height: 1090px;
     background-color:;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 176px;
 }
 .lastboxes-div{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .long-block{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-top: 120px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .long-block-box1{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     max-width: 280px;
     width: 100%;
     height: 284px;
@@ -803,6 +1103,10 @@ margin-top: 24px;
 .pg4-boxtitle{
     font-size: 30px;
     color: white;
+    font-family: 'Futura PT Cond medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 .pg4-boxp{
     max-width: 200px;
@@ -845,23 +1149,42 @@ margin-top: 24px;
 max-width: 350px;
 width: 100%;
 height: 146px;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 margin-top: 37px;
-justify-content: space-between;
-align-items: center;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 color: gray;
+font-family: 'Futura PT Book';
+font-weight: normal;
+font-style: normal;
+font-display: swap;
 }
 .tag1{
 width: 115px;
 
 height: 43px;
 border: 1px solid gray;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-align-items: center;
-justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
 color:gray;
-transition-duration: 2s;
+-webkit-transition-duration: 2s;
+     -o-transition-duration: 2s;
+        transition-duration: 2s;
 }
 .tag1:hover{
     background-color:#00A2FF;
@@ -871,11 +1194,19 @@ transition-duration: 2s;
     
     height: 43px;
     border: 1px solid gray;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-align-items: center;
-justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
 color:gray;
-transition-duration: 2s;
+-webkit-transition-duration: 2s;
+     -o-transition-duration: 2s;
+        transition-duration: 2s;
 }
 .tag2:hover{
     background-color: #00A2FF;
@@ -884,11 +1215,19 @@ transition-duration: 2s;
     width: 115px;
     height: 43px;
     border: 1px solid gray;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-align-items: center;
-justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
 color:gray;
-transition-duration: 2s;
+-webkit-transition-duration: 2s;
+     -o-transition-duration: 2s;
+        transition-duration: 2s;
 }
 .tag3:hover{
     background-color: #00A2FF;
@@ -897,11 +1236,19 @@ transition-duration: 2s;
     width: 115px;
     height: 43px;
     border: 1px solid gray;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-align-items: center;
-justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
 color:gray;
-transition-duration: 2s;
+-webkit-transition-duration: 2s;
+     -o-transition-duration: 2s;
+        transition-duration: 2s;
 }
 .tag4:hover{
     background-color: #00A2FF;
@@ -910,11 +1257,19 @@ transition-duration: 2s;
     width: 96px;
     height: 43px;
     border: 1px solid gray;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-align-items: center;
-justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
 color:gray;
-transition-duration: 2s;
+-webkit-transition-duration: 2s;
+     -o-transition-duration: 2s;
+        transition-duration: 2s;
 }
 .tag5:hover{
     background-color: #00A2FF;
@@ -923,11 +1278,19 @@ transition-duration: 2s;
     width: 115px;
     height: 43px;
     border: 1px solid gray;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-align-items: center;
-justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
 color:gray;
-transition-duration: 2s;
+-webkit-transition-duration: 2s;
+     -o-transition-duration: 2s;
+        transition-duration: 2s;
 }
 .tag6:hover{
     background-color: #00A2FF;
@@ -936,11 +1299,19 @@ transition-duration: 2s;
     width: 120px;
     height: 43px;
     border: 1px solid gray;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-align-items: center;
-justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
 color:gray;
-transition-duration: 2s;
+-webkit-transition-duration: 2s;
+     -o-transition-duration: 2s;
+        transition-duration: 2s;
 }
 .tag7:hover{
     background-color: #00A2FF;
@@ -949,11 +1320,19 @@ transition-duration: 2s;
     width: 74px;
     height: 43px;
     border: 1px solid gray;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-align-items: center;
-justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
 color:gray;
-transition-duration: 2s;
+-webkit-transition-duration: 2s;
+     -o-transition-duration: 2s;
+        transition-duration: 2s;
 }
 .tag8:hover{
     background-color: #00A2FF;
@@ -962,11 +1341,19 @@ transition-duration: 2s;
     width: 89px;
     height: 43px;
     border: 1px solid gray;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-align-items: center;
-justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
 color:gray;
-transition-duration:2s;
+-webkit-transition-duration:2s;
+     -o-transition-duration:2s;
+        transition-duration:2s;
 }
 .tag9:hover{
     background-color: #00A2FF;
@@ -1014,21 +1401,42 @@ transition-duration:2s;
     width: 100%;
     background-color: #00A2FF;
     height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-justify-content: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
 
 }
 
 .bottom-nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
    max-width: 500px;
    width: 100%;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Futura PT bold';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-family: 'Futura PT Demi';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
 }
 .bottom-p{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     color: #707070;
     margin-top: 21px;
     height: 50px;
@@ -1036,4 +1444,8 @@ justify-content: center;
 .logo2{
     margin-left: -80px;
     margin-bottom: 20px;
+}
+.logo-a{
+    max-width:203px ;
+    height: 40px;
 }

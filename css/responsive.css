@@ -14,13 +14,18 @@ margin-bottom: 40px;
     .ul-tag{
         display: none;
     }
+    .phone{
+        display: none;
+    }
     .fa-bars{
         display: block;
         max-width: 30px;
         width: 100%;
         margin-right: 40px;
     }
-    
+    .fa-phone{
+        display: none;
+    }
  }
 
 @media(max-width:829px){
@@ -57,6 +62,9 @@ margin-bottom: 40px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .logo-a{
+        margin-bottom: 30px;
     }
 }
 @media(max-width:497px){
