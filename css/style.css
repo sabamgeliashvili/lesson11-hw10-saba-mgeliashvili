@@ -560,6 +560,7 @@ font-family: 'Futura PT Cond medium';
     max-width: 506px;
     width: 100%;
     height: 397px;
+    object-fit: cover;
 }
 .image7-div{
     position: relative;
@@ -598,11 +599,13 @@ font-family: 'Futura PT Cond medium';
     max-width: 506px;
     width: 100%;
     height: 397px;
+    object-fit: cover;
 }
 .image9{
     max-width: 506px;
     width: 100%;
     height: 397px;
+    object-fit: cover;
 }
 .image9-div{
     position: relative;
@@ -641,6 +644,7 @@ font-family: 'Futura PT Cond medium';
     max-width: 506px;
     width: 100%;
     height: 397px;
+    object-fit: cover;
 }
 .image10-div{
     position: relative;
@@ -679,6 +683,7 @@ font-family: 'Futura PT Cond medium';
    max-width: 506px;
    width: 100%;
    height: 397px;
+   object-fit: cover;
 }
 .image11-div{
     position: relative;
@@ -717,6 +722,7 @@ bottom: 0;
     max-width: 506px;
     width: 100%;
     height: 397px;
+    object-fit: cover;
 }
 .image12-div{
     position: relative;

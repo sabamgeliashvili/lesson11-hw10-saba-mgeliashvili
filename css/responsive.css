@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media(max-width:968px){
     .top-box2{
 margin-top: 40px;
@@ -6,8 +13,12 @@ margin-bottom: 40px;
 }
 @media(max-width:1028px){
    .page2-boxes{
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
    }
 }
 @media(max-width:769px){
@@ -30,8 +41,12 @@ margin-bottom: 40px;
 
 @media(max-width:829px){
    .right-div1{
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-bottom: 400px;
    }
    .left-img{
@@ -59,9 +74,16 @@ margin-bottom: 40px;
 }
 @media(max-width:850px){
     .long-block{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .logo-a{
         margin-bottom: 30px;
@@ -69,4 +91,9 @@ margin-bottom: 40px;
 }
 @media(max-width:497px){
     .header{}
+}
+@media(max-width:362px){
+    .bottom-line{
+        margin-top: 50px;
+    }
 }
