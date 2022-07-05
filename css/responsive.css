@@ -113,7 +113,22 @@ margin-bottom: 40px;
     }
 }
 @media(max-width:497px){
-    .header{}
+    .left-img{
+     
+    }
+    .image4{
+       max-width: 300px;
+        width: 100%;
+       
+    }
+    .image5{
+        max-width: 300px;
+        width: 100%;
+    }
+    .image6{
+        max-width: 300px;
+        width: 100%;
+    }
 }
 @media(max-width:362px){
     .bottom-line{
