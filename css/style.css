@@ -272,6 +272,7 @@ font-weight: 500;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+            align-items: center;
 }
 .top-box2{
    background-image:url(../images/image2.jpg) ;
@@ -292,6 +293,7 @@ font-weight: 500;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+            align-items: center;
 }
 .top-box3{
     background-image: url(../images/image3.jpg);
@@ -312,6 +314,7 @@ font-weight: 500;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+            align-items: center;
 }
 .box1-p{
     position: absolute;
@@ -446,6 +449,7 @@ font-weight: 500;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+            align-items: center;
 }
 .left-img{
     display: -webkit-box;
@@ -546,6 +550,7 @@ font-family: 'Futura PT Cond medium';
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+            align-items: center;
    
 }
 .page2-boxes{
@@ -1107,6 +1112,7 @@ margin-top: 24px;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+            align-items: center;
     max-width: 280px;
     width: 100%;
     height: 284px;
