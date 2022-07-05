@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .body{
     padding-top: 120px;
 }
@@ -449,7 +456,9 @@ font-weight: 500;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-            align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
 }
 .left-img{
     display: -webkit-box;
@@ -565,7 +574,8 @@ font-family: 'Futura PT Cond medium';
     max-width: 506px;
     width: 100%;
     height: 397px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 .image7-div{
     position: relative;
@@ -604,13 +614,15 @@ font-family: 'Futura PT Cond medium';
     max-width: 506px;
     width: 100%;
     height: 397px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 .image9{
     max-width: 506px;
     width: 100%;
     height: 397px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 .image9-div{
     position: relative;
@@ -649,7 +661,8 @@ font-family: 'Futura PT Cond medium';
     max-width: 506px;
     width: 100%;
     height: 397px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 .image10-div{
     position: relative;
@@ -688,7 +701,8 @@ font-family: 'Futura PT Cond medium';
    max-width: 506px;
    width: 100%;
    height: 397px;
-   object-fit: cover;
+   -o-object-fit: cover;
+      object-fit: cover;
 }
 .image11-div{
     position: relative;
@@ -727,7 +741,8 @@ bottom: 0;
     max-width: 506px;
     width: 100%;
     height: 397px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 .image12-div{
     position: relative;
@@ -1112,7 +1127,9 @@ margin-top: 24px;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-            align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
     max-width: 280px;
     width: 100%;
     height: 284px;
